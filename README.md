@@ -19,7 +19,7 @@ This project is ideal for anyone looking to **save time** in the early stages of
 > The **design rules** in this project are suitable for most **local PCB manufacturing** companies. However, it is recommended to consult and place your PCB orders through the **Telegram group** below for affordable and reliable PCB printing services:  
 [CheapProject Telegram Group](https://t.me/CheapProject)
 
-## Resources
+# Resources
 - [Altium Library](https://github.com/aKaReZa75/Altium-Library)  
   ---  
    All PCB designs across all repositories and projects are built using this Altium Designer component library. It contains a wide range of verified footprints, schematic symbols, and 3D models, ensuring consistency and accuracy in PCB designs. If you're working on a new PCB, using this library will save you time and minimize errors.
