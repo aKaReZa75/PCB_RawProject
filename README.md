@@ -7,13 +7,17 @@ This project is ideal for anyone looking to **save time** in the early stages of
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
 ## **Minimum PCB Design Requirements**
-| **Requirement**                            | **Value**  |
-|--------------------------------------------|------------|
+| **Requirement**                           | **Value**  |
+|-------------------------------------------|------------|
 | Minimum Drilling Hole Diameter            | 0.4mm      |
-| Minimum Drilling Hole Diameter (HalfPad)   | 0.7mm      |
+| Minimum Drilling Hole Diameter (HalfPad)  | 0.7mm      |
 | Minimum Clearance                         | 0.2mm      |
 | Minimum Trace Width                       | 0.2mm      |
-| Minimum Marking Resolution                | 0.15mm     |
+| Minimum Overlay Resolution                | 0.15mm     |
+| Minimum Annular Ring                      | 0.15mm     |
+| Minimum Copper to Board Edge Distance     | 0.2mm      |
+| Minimum Hole-to-Hole Distance             | 0.3mm      |
+| Minimum CNC-Route Gap for Internal Cuts   | 0.6mm      |
 
 > [!TIP]
 > The **design rules** in this project are suitable for most **local PCB manufacturing** companies. However, it is recommended to consult and place your PCB orders through the **Telegram group** below for affordable and reliable PCB printing services:  
