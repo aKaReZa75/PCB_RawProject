@@ -23,6 +23,41 @@ This project is ideal for anyone looking to **save time** in the early stages of
 > The **design rules** in this project are suitable for most **local PCB manufacturing** companies. However, it is recommended to consult and place your PCB orders through the **Telegram group** below for affordable and reliable PCB printing services:  
 [CheapProject Telegram Group](https://t.me/CheapProject)
 
+## **Connection Matrix Configuration**
+In this project, the "Connection Matrix" settings in Altium Designer have been configured in such a way that no pin can remain unconnected. This ensures that all pins and ports are appropriately linked to their corresponding components or circuits, eliminating the possibility of unconnected pins in the PCB design.
+
+![MatrixConnection](Images/ConnectionMatrix.png)
+
+
+### Connection Verification
+
+Through this configuration, Altium automatically verifies and ensures that every pin is connected to the appropriate component or system in the design. If a pin is left unconnected, it will be flagged, and the designer will be alerted. This eliminates potential errors caused by missing connections and ensures a more robust and functional design.
+
+### Error Reporting
+
+Color coding is used to show the status of each connection:
+
+- **Red**: Fatal Error — A critical issue with the connection.
+- **Orange**: Warning — A potential problem that needs attention.
+- **Green**: No Report — No issues detected.
+- **Yellow**: Error — A minor issue or misconfiguration detected.
+
+This configuration helps in ensuring that the design adheres to best practices and prevents any unconnected pins from being overlooked during the design process.
+
+## **Net Scope Configuration**
+According to the settings configured in the **Options** section, all **Power Ports** and **Net Labels** are treated as **local** in this design. This configuration is important, especially in a **hierarchical design**, where multiple schematic sheets are involved.
+
+![NetScope](Images/NetScope.png)
+
+In hierarchical designs, multiple sheets represent different sections or modules of the circuit. The **local** setting for Power Ports and Net Labels means that their scope is limited to the sheet or module in which they are defined. This ensures that:
+
+- **Power Ports** will be confined to their respective sheets and will not interfere with or be incorrectly referenced by other sheets. Each sheet can have its own local power ports, which simplifies the design and prevents cross-sheet confusion.
+- **Net Labels** will similarly be treated locally within each sheet. This prevents issues where nets are incorrectly connected across different sheets due to misidentified or globally scoped labels.
+
+By setting Power Ports and Net Labels as local, the design follows a strict hierarchical structure, where connections between sheets are well-defined and easy to manage, avoiding unintended cross-connections or misinterpretations of net names across different sheets.
+
+This approach helps maintain a clean and organized design, especially in large or complex PCB projects that involve multiple schematic sheets and hierarchical levels.
+
 # Resources
 - [Altium Library](https://github.com/aKaReZa75/Altium-Library)  
   ---  
