@@ -67,6 +67,10 @@ This approach helps maintain a clean and organized design, especially in large o
   ---  
   This repository is dedicated to **learning PCB design and electronics from scratch**. It covers everything from circuit theory to practical PCB layout techniques, including routing strategies, best practices, and component placement. Whether you're a beginner or an experienced designer, this resource will help you **improve your PCB design skills and create professional-quality boards**.
 
+- [PCB Checklist](./CheckList.md)  
+  ---
+  This checklist is designed to guide you through the complete process of designing a PCB. It includes critical steps, ensuring that your design is accurate and ready for manufacturing. Follow each item, confirming your progress with initials and date.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
