@@ -48,7 +48,7 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration1_Name1=ColumnNameFormat
 Configuration1_Item1=CaptionAsName
 Configuration1_Name2=General
-Configuration1_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=E:\aKaReZa\#gitHub\PCB_RawProject\aKaReZa.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=6|FormWidth=1920|FormHeight=1042|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD24\Templates\BOM Template.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=6|FormWidth=1920|FormHeight=1042|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration1_Name3=GroupOrder
 Configuration1_Item3=Footprint=True|LibRef=True|Value=True|Type=True
 Configuration1_Name4=SortOrder
@@ -381,7 +381,7 @@ Configuration19_Item1=Format=PCB Binary Files (*.PcbDoc)|Record=UniExporterView|
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for AVR_RCS
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -408,7 +408,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=E:\aKaReZa\#gitHub\RCS_AVR\AVR RCS\Project Outputs for AVR_RCS\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for AVR_RCS
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Name]
@@ -421,7 +421,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for AVR_RCS
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
