@@ -18,6 +18,7 @@ The procedure needs to be executed in order as defined here. Start from number 1
 - [ ] Update PCB from schematic and verify component and net transfer
 - [ ] Confirm no outdated components and Check footprint
 - [ ] Validate critical component placements and component orientations
+- [ ] Set and verify origin point
 
 ## 3. Repour All Polygons
 - [ ] Repour all polygons on all layers
@@ -26,6 +27,7 @@ The procedure needs to be executed in order as defined here. Start from number 1
 - [ ] Verify thermal connections to pads
 - [ ] Ensure proper clearance around vias and pads
 - [ ] Ensure correct connections to ground and power planes
+- [ ] Open Stack Manager and define PCB layer stack and core thickness
 
 ## 4. Design Rule Check (DRC)
 - [ ] Run DRC and verify no errors
@@ -75,6 +77,7 @@ The procedure needs to be executed in order as defined here. Start from number 1
 - [ ] Confirm all text is readable and not mirrored
 
 ## 8. Remove 3D on PCB (for reducing PCBdoc file size)
+- [ ] Backup original file with 3D models before removal
 - [ ] Remove or disable 3D models to reduce file size
 - [ ] Check that file opens correctly after 3D removal
 - [ ] Verify file size is appropriate for sending to manufacturer
