@@ -12,6 +12,50 @@ This project is ideal for anyone looking to **save time** in the early stages of
 > [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)   
 > Make sure to check it out!
 
+## 📂 Repository Contents
+This repository contains a collection of pre-configured **Altium Designer templates** to streamline your PCB design workflow. Each file has a specific role in automating documentation, BOM generation, schematic layout, and rule enforcement.
+
+| File / Folder | Description |
+|---------------|-------------|
+| Images/ | Contains images or diagrams used in documentation or templates. |
+| PCB_RawPrj/ | Pre-configured Altium project directory with all recommended settings applied — ready to be cloned and used as a starting point. |
+| A4 Template.SchDot | Schematic template in A4 size for use in Altium schematics. |
+| BOM Template.xlsx | Pre-formatted Excel file for Bill of Materials (BOM) output with standard columns. |
+| CheckList.md | A full PCB design checklist to ensure all critical steps are completed before manufacturing. |
+| Documents.OutJob | Output job configuration that automates the generation of Gerbers, BOM, Pick-and-Place, and PDF files. |
+| DraftsMan A3 Sheet.DwsDot | A3-sized Draftsman sheet template for creating PCB manufacturing drawings. |
+| DraftsMan Template.DwfDot | General Draftsman document template for standardized mechanical and assembly drawings. |
+| LICENSE | License file for the project (default is MIT unless changed). |
+| README.md | You’re reading it! Contains the project overview, usage, and file descriptions. |
+| Rules.RUL | Design rules file to be imported into Altium for consistent rule-checking across projects. |
+
+
+### How to Use the Template Files
+To use the provided **Altium Designer Templates**, you need to copy them into the correct system directory so they appear automatically when creating new projects, schematics, drafts, or output jobs.
+
+#### ✅ Default Template Directory for Altium Designer 24:
+```
+C:\Users\Public\Documents\Altium\AD24\Templates
+```
+> [!NOTE]
+> This is the **default path**, assuming the installation directory was not changed during setup.
+
+#### 🔄 For Other Altium Versions:
+- Replace `AD24` in the path with the version you are using:
+  - Altium Designer 23 → `AD23`
+  - Altium Designer 22 → `AD22`
+  - and so on...
+
+#### 📝 Example:
+If you're using **Altium Designer 22**, place the template files here:
+```
+C:\Users\Public\Documents\Altium\AD22\Templates
+```
+
+After copying the templates into the correct folder:
+- Restart Altium (if it was open)
+- Your templates will be available when creating new schematic sheets, PCB documents, Draftsman documents, or output jobs.
+
 ## **Minimum PCB Design Requirements**
 | **Requirement**                           | **Value**  |
 |-------------------------------------------|------------|
