@@ -29,7 +29,6 @@ This repository contains a collection of pre-configured **Altium Designer templa
 | README.md | You’re reading it! Contains the project overview, usage, and file descriptions. |
 | Rules.RUL | Design rules file to be imported into Altium for consistent rule-checking across projects. |
 
-
 ### How to Use the Template Files
 To use the provided **Altium Designer Templates**, you need to copy them into the correct system directory so they appear automatically when creating new projects, schematics, drafts, or output jobs.
 
@@ -55,6 +54,9 @@ C:\Users\Public\Documents\Altium\AD22\Templates
 After copying the templates into the correct folder:
 - Restart Altium (if it was open)
 - Your templates will be available when creating new schematic sheets, PCB documents, Draftsman documents, or output jobs.
+
+> [!TIP]
+> A complete tutorial on how to use all the provided templates, follow the checklists, document your project properly, and prepare the PCB for ordering is available in this video: [aKaReZa 98 - PCB, Ordering](https://youtu.be/FoJUFKjwWjk)
 
 ## **Minimum PCB Design Requirements**
 | **Requirement**                           | **Value**  |
