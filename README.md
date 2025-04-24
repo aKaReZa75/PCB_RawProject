@@ -3,9 +3,6 @@ The **PCB RawProject** repository provides a **ready-to-use template** for your 
 The project is designed to serve as a **foundation** for creating and customizing your own PCB projects, ensuring consistency and ease of use.   
 This project is ideal for anyone looking to **save time** in the early stages of PCB design while maintaining high-quality standards in their projects. Whether you're a beginner or an experienced designer, using this template can streamline your workflow and help you focus more on the design aspects.
 
-> [!CAUTION]
-> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
-
 <table>
   <tr>
   <td valign="top">
@@ -24,7 +21,17 @@ This project is ideal for anyone looking to **save time** in the early stages of
              alt="aKaReZa 95 - Programming, Git - PART B Thumbnail"/>
       </a>
     </td>
+
+  </td>
   </tr>
+  <tr>
+  <td colspan="2">
+
+  > [!CAUTION]
+  > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+      
+  </td>
+  </tr>  
 </table>
 
 ## 📂 Repository Contents
