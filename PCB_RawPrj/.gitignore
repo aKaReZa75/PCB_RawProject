@@ -1,3 +1,6 @@
-History/
-Project Logs for PCB_RawPrj/
-__Previews/
+**/History/
+**/__Previews/
+**/Project Logs for */
+*.LOG
+*.SchDocPreview
+*.zip
